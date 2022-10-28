@@ -7,6 +7,10 @@
 a{
     text-decoration: none;
 }
+
+.container-main{
+    display: flex;
+}
 .search {
     flex-grow: 1;
     margin: 0 10px;
@@ -43,6 +47,11 @@ main{
     background-color: rgb(6, 23, 121);
 }
 
+.container-main{
+    width: 100vh;
+    height: calc(100% -130px);
+    height: 100%;
+}
 .roster, a, .roster i{
     color: #ffff;
     padding-right: 10px;
@@ -63,10 +72,19 @@ main{
 }
 
 .button-1{
+    display: flex;
     border-radius: 15px;
     text-decoration: none;
     padding: 5px 10px;
     border: 1px solid #2163c0;
     background-color: #3173d1;
+}
+
+.content_dx{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 80px;
+    right: 10px;
 }
 
