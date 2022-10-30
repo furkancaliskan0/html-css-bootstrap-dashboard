@@ -41,7 +41,7 @@ main{
     align-items: center;
     height: 100%;
     padding: 20px;
-    background-color: rgb(6, 23, 121);
+    background-color: rgb(6, 13, 56);
 }
 
 
@@ -83,5 +83,48 @@ main{
     padding: 5px 10px;
     
 
+}
+
+.label{
+    margin-right: 12px;
+    border-radius: 12px;
+    padding: 6px;
+    color: rgb(247, 245, 245);
+}
+.label.yellow{
+    background-color: #f9c118;
+    border: 1.25px solid #f7bc0e;
+}
+
+.label.red{
+    background-color: #ca2738;
+    border: 1.25px solid #dd3a4a;
+}
+
+.label.green{
+    background-color: #167b4c;
+    border: 1.25px solid #1d8756;
+}
+
+
+.fa-solid.fa-plus{
+    border-radius: 20%;
+    border: 2px solid #0f75fc;
+    color: #2580f7;
+    padding: 5px;
+}
+
+.fa-solid.fa-code{
+    color: white;
+    background-color: red;
+    border: 5px ;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-pencil, .fa-solid.fa-trash{
+    border-radius: 30%;
+    border: 1px solid grey;
+    border-color:grey;
+    
 }
 
