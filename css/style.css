@@ -151,7 +151,7 @@ main{
 
 .box{
     margin-top: 20px;
-    border: 1px solid #d4d4d4;
+    border: 1px solid #c5c2c2;
     border-radius: 10px;
 }
 
@@ -173,4 +173,18 @@ main{
 
 .todo div{
     padding: 8px 0;
+}
+
+.text-users a{
+    color: #3664b3;
+    padding: 5px 15px;
+    text-decoration: underline;
+}
+
+.text-users div, .text-users ul li{
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.text-users li, .text-users h3, .text-users div{
+    padding: 10px 30px;
 }
