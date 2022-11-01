@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.search {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
 a{
     text-decoration: none;
 }
@@ -11,10 +17,6 @@ ul li{
     list-style: none;
 }
 
-.search {
-    flex-grow: 1;
-    margin: 0 10px;
-}
 nav{
     display: flex;
     align-items: center;
@@ -41,16 +43,30 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
+    height: 180%;
     padding: 20px;
     background-color: rgb(6, 13, 56);
 }
 
-
+#main-content{
+    width: 100vw;
+    height: 100%;
+    
+}
 .roster, a, .roster i{
     color: #ffff;
     padding-right: 10px;
 }
+
+#content{
+    background-color: #1b72e8;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    
+}
+
 
 .roster{
     display: flex;
@@ -75,24 +91,18 @@ main{
     background-color: #3173d1;
 }
 
-#content_dx{
+.top-right{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     
 }
 
-.content_dx span{
-    padding: 5px 10px;
-    
-
-}
-
 .label{
-    margin-right: 12px;
-    border-radius: 12px;
+    margin-right: 8px;
+    border-radius: 8px;
     padding: 6px;
-    color: rgb(247, 245, 245);
+    color: rgb(235, 233, 233);
 }
 .label.yellow{
     background-color: #f9c118;
@@ -141,9 +151,15 @@ main{
     border: 1px solid #d4d4d4;
     border-radius: 10px;
 }
+.faq{
+    background-color: #faf8f8;
+    border-bottom: 1px solid #bdbbbb;
+    padding:  5px;
+    border-radius: 8px 8px 0 0 ;
 
+}
 .data-item .headline-box{
-    background-color: #e4e4e4;
+    background-color: #faf8f8;
     border-bottom: 1px solid #c7c4c4;
     padding:  5px;
     border-radius: 8px 8px 0 0 ;
