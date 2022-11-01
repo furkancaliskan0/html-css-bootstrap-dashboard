@@ -7,7 +7,9 @@
 a{
     text-decoration: none;
 }
-
+ul li{
+    list-style: none;
+}
 
 .search {
     flex-grow: 1;
@@ -30,7 +32,7 @@ nav{
 main{
     width: 100vw;
     display: flex;
-    height: calc(100vh - 60px);
+    height: 100vh
 }
 
 .container-aside{
@@ -55,7 +57,6 @@ main{
     margin-bottom: 30px;
 }
 
-
 .button-aside{
     width: 130px;
     display: flex;
@@ -65,7 +66,8 @@ main{
 }
 
 .button-1{
-    display: flex;
+    display: inline-block;
+    align-items: center;
     border-radius: 15px;
     text-decoration: none;
     padding: 5px 10px;
@@ -73,9 +75,10 @@ main{
     background-color: #3173d1;
 }
 
-.content_dx{
+#content_dx{
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     
 }
 
@@ -128,4 +131,46 @@ main{
     
 }
 
+.data-item{
+    width: 30%;
+    padding-right: 20px;
+}
 
+.box{
+    margin-top: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+}
+
+.data-item .headline-box{
+    background-color: #e4e4e4;
+    border-bottom: 1px solid #c7c4c4;
+    padding:  5px;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.box{
+    margin-top: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+}
+
+.container-box {
+    padding: 10px 0;
+    margin: 0 20px;
+}
+
+.todo{
+    margin: 10px 10px;
+    padding: 5px;
+    border: 1px solid #c7c4c4;
+    border-radius: 10px;
+}
+
+.todo div:first-child, .todo div:nth-child(2){
+    border-bottom: 1px solid #c2c0c0;
+}
+
+.todo div{
+    padding: 8px 0;
+}
