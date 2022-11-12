@@ -11,9 +11,11 @@
     
 }
 
+
 a{
     text-decoration: none;
 }
+
 ul li{
     list-style: none;
 }
@@ -44,17 +46,92 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 292vh;
+    height: 160vh;
     padding: 20px;
-    background-color: rgb(6, 13, 56);
+    background-color: rgb(22, 26, 46);
 }
 
 #main-content{
     width: 100vw;
-    height: 100%;
-    
-    
+    height: 300px;
+    display: grid;
+    place-items: center;
 }
+/* inzio */
+.general_data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_sx{
+    width: 69%; 
+    padding-left: 18px; 
+}
+
+.container_box ul, .faq_question{
+    padding: 9px 0;
+    margin: 0 18px;
+}
+
+.container_box p{
+    padding: 8px 0;
+    margin: 0 18px;
+    display: none;
+}
+
+
+.data_dx{
+    width: 25%;
+    padding-right: 18px;
+}
+
+.box{
+    border: 1px solid #c5c3c3;
+    border-radius: 8px;
+    margin-top: 18px;
+}
+
+.data_sx .box{
+    padding-bottom: 28px;
+}
+
+.box hr{
+    margin: 0 18px;
+    color: #e2dede;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 550;
+}
+
+.roi{
+    padding-left: 38px;
+}
+
+.inizio{
+    margin-left: 95px;
+}
+
+.data_sx .title_box{
+    background-color: #d8d4d4;
+    border-bottom: 1px solid #d1cece;
+    padding: 8px 18px;
+    border-radius: 8px 8px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_box .fa-plus{
+    border: 1px solid #5899fa;
+    border-radius: 8px;
+    padding: 13px;
+    color: #64a2ff;
+}
+
 .roster, a, .roster i{
     color: #ffff;
     padding-right: 10px;
@@ -64,12 +141,17 @@ main{
     background-color: #1b72e8;
     color: #fff;
     display: flex;
+    justify-items: flex-start;
     align-items: center;
-    padding: 10px 10px 10px 20px;
+    padding: 1% 23%;
     
 }
 
-
+.center-2{
+    overflow: scroll;
+    height: 100vh;
+    width: 100%;
+}
 .roster{
     display: flex;
     margin-bottom: 30px;
@@ -93,12 +175,6 @@ main{
     background-color: #3173d1;
 }
 
-.top-right{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    
-}
 
 .label{
     margin-right: 8px;
